@@ -9,16 +9,21 @@ See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/
 
 _Note this is for a Project Page and not Organization and User Pages._
 
-Run this command locally to deploy to Github Pages by building and pushing to `gh-pages` branch.
+How to deploy to Github Pages. Run this to build to `site` directory, push to `gh-pages` branch and enable Github Pages (if it was not yet enabled.)
 
 ```sh
 mkdocs gh-deploy
 ```
 
-See options:
+Then go to your repo on Github, see the *environment* tab and click _View deployment_.
+
+e.g.
+
+- [michaelcurrin.github.io/mkdocs-quickstart/](https://michaelcurrin.github.io/mkdocs-quickstart/)
+
+
+See deploy options:
 
 ```sh
 mkdocs gh-deploy --help
 ```
-
-_Note you cannot view the site before its pushed, so use the `build` or `serve` commands for that._
