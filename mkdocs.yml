@@ -1,9 +1,11 @@
 site_name: MkDocs Quickstart
-site_description: 'A brief guide for setting up a MkDocs docs site on Github Pages'
+# For SEO.
+site_description: 'A concise recipe for setting up a MkDocs docs site on Github Pages'
 nav:
     - Home: index.md
     - Setup and run: setup_and_run.md
     - Tutorial: tutorial.md
     - Deploy: deploy.md
 theme: readthedocs
+# For adding Edit in Github button.
 repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
