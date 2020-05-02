@@ -1,7 +1,7 @@
 # Setup and run
 > How to setup and run a docs site locally
 
-_Note: If using VS Code, you can use the command palette instead to run the configured tasks - these are setup in `.vscode/tasks.json`)._
+_Note: If using VS Code, you can use the command palette instead to run the configured tasks - these are setup in `.vscode/tasks.json`._
 
 ## Install
 
