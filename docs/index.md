@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> A concise recipe for setting MkDocs docs site on Github Pages
+> A concise recipe for setting up MkDocs docs site on Github Pages
 
 
 This is based on the [mkdocs.org](https://www.mkdocs.org/) tutorial.
