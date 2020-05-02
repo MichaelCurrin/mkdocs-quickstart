@@ -9,7 +9,9 @@ See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/
 
 _Note this is for a Project Page and not Organization and User Pages._
 
-How to deploy to Github Pages. Run this to build to `site` directory, push to `gh-pages` branch and enable Github Pages (if it was not yet enabled.)
+How to deploy to Github Pages.
+
+Run this to build to `site` directory, push to `gh-pages` branch and enable Github Pages (if it was not yet enabled). The default option is to clean the site directory first.
 
 ```sh
 mkdocs gh-deploy
