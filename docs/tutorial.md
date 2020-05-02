@@ -24,3 +24,8 @@ This is a summary of the tutorial on [mkdocs.org](https://www.mkdocs.org/).
         ```
 3. Create a favicon.
     - It will be picked up this path: `docs/img/favicon.ico`.
+
+
+### Further configuration
+
+See [Configuration](https://www.mkdocs.org/user-guide/configuration/) page on MkDocs site for options.
