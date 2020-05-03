@@ -5,12 +5,12 @@ nav:
     - Home: index.md
     - About MkDocs: about_mkdocs.md
     - Tutorial:
-        - TL;DR: tldr.md
-        - Installation: installation.md
-        - Setup project: setup_project.md
-        - Advanced configuration: advanced.md
-        - Usage: usage.md
-        - Deploy: deploy.md
+        - TL;DR: tutorial/tldr.md
+        - Installation: tutorial/installation.md
+        - Setup project: tutorial/setup_project.md
+        - Advanced: tutorial/advanced.md
+        - Usage: tutorial/usage.md
+        - Deploy: tutorial/deploy.md
 theme: readthedocs
 # For adding Edit in Github button.
 repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
