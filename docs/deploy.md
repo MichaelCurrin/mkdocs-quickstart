@@ -13,6 +13,7 @@ _Note this is for a Project Page and not Organization and User Pages._
 
 ### Run deploy command
 
+MkDocs needs to know where to publish commits on Github - so make sure you are working with a repo that you cloned, or that you initialize the local repo and add a `remote` repo.
 
 Run this command locally:
 
