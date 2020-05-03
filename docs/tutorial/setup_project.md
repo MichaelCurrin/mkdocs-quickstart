@@ -10,7 +10,6 @@ Use one of the approaches below:
 
 - Create a quickstart project with the `new` command covered in [Create a starter site](#create-a-starter-site).
 - Follow the extended guide to create a [Setup up docs site](#setup-a-docs-site) by hand.
-- Click *Use this Template* button on the Github repo to get your own copy.
 
 
 ### Basic structure
