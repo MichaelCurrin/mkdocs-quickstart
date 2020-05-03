@@ -1,18 +1,23 @@
 # About MkDocs
 
 
+
 ## What is MkDocs?
+
+The description on the MkDocs site is:
+
+> Project documentation with Markdown.
 
 MkDocs is a Python tool generates a static site based on content written in *markdown*.
 
 If you are new to markdown, see the [Getting Started](https://www.markdownguide.org/getting-started/) page on the Markdown Guide website.
 
-**Links:**
+
+## Resources
 
 - [mkdocs.org](https://www.mkdocs.org) homepage
-- [mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) on Github
-    > "Project documentation with Markdown."
-- [MkDocs Wiki](https://github.com/mkdocs/mkdocs/wiki) on Github, covering themes, plugins, recipes and more.
+- [mkdocs/mkdocs ![Repo stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
+- [MkDocs Wiki](https://github.com/mkdocs/mkdocs/wiki) - covering themes, plugins, recipes and more.
 
 
 ## Reasons to use MkDocs

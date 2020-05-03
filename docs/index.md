@@ -1,6 +1,8 @@
 # MkDocs Quickstart
 > A concise recipe for setting up a MkDocs docs site on Github Pages
 
+[![Repo stars](https://img.shields.io/github/stars/MichaelCurrin/mkdocs-quickstart?style=social)](https://github.com/MichaelCurrin/mkdocs-quickstart)
+
 
 Use the MkDocs (make docs) tool to create build a docs site around markdown docs. Add to an existing project or create a project from scratch.
 
