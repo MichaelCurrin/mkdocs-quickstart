@@ -5,8 +5,9 @@
     "tasks": [
         {
             "label": "build",
-            "type": "shell",
-            "command": "mkdocs build",
+            "type": "process",
+            "command": "${config:python.pythonPath}",
+            "args": ["-m", "mkdocs", "build"],
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -15,13 +16,36 @@
         },
         {
             "label": "serve",
-            "type": "shell",
-            "command": "mkdocs serve"
+            "type": "process",
+            "command": "${config:python.pythonPath}",
+            "args": ["-m", "mkdocs", "serve"],
+            "problemMatcher": [],
         },
         {
             "label": "deploy",
+            "type": "process",
+            "command": "${config:python.pythonPath}",
+            "args": ["-m", "mkdocs", "gh-deploy"],
+            "problemMatcher": [],
+        },
+        // Reference globally-installed MkDocs.
+        {
+            "label": "build-global",
             "type": "shell",
-            "command": "mkdocs gh-deploy"
+            "command": "mkdocs build",
+            "problemMatcher": [],
+        },
+        {
+            "label": "serve-global",
+            "type": "shell",
+            "command": "mkdocs serve",
+            "problemMatcher": [],
+        },
+        {
+            "label": "deploy-global",
+            "type": "shell",
+            "command": "mkdocs gh-deploy",
+            "problemMatcher": [],
         }
     ]
 }

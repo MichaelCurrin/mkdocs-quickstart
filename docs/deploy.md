@@ -1,5 +1,5 @@
 # Deploy
-> How to deploy a MkDocs site to be served publically
+> Build and deploy to a remote public site
 
 
 See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/) on the Mkdocs site for more details.
