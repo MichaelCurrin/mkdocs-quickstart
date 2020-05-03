@@ -6,19 +6,21 @@ This is a summary of the tutorial on [mkdocs.org](https://www.mkdocs.org/).
 
 ### Basic structure
 
-This is the simplest MkDocs site you can make, with a config at the root and a homepage in the `docs` directory (by default). Usually on `master` branch. 
+This is the simplest MkDocs site you can make:
 
-```
-mkdocs.yml
-docs/
-    index.md
-```
+- `mkdocs.yml` - Config at the root.
+- `docs/index.md` - Homepage in the `docs` directory (by default).
+
 
 The steps below start with that and extend it to more pages.
 
 
-Run `mkdocs new .` to create the starter site above and to make the steps below go quicker.
+Run this command to create the starter site above. This make the steps below go quicker.
 
+```sh
+cd my-project
+mkdocs new PATH
+```
 
 ### Setup site
 
@@ -34,12 +36,21 @@ Run `mkdocs new .` to create the starter site above and to make the steps below 
         - Home: index.md
         - About: about.md
         ```
-    3. Choose a theme.
+    3. Choose a theme. e.g.
         ```yaml
         theme: readthedocs
         ```
 3. Create a favicon (optional).
     - It will be picked up at this path: `docs/img/favicon.ico`.
+4. Add to your `.gitignore`.
+    - Add build directory. This will prevent it from being versioned on `master` branch.
+    - Add virtual environment, if using one.
+    - e.g.
+        ```
+        site/
+
+        venv
+        ```
 
 
 ### Further configuration
