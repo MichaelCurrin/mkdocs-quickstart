@@ -51,10 +51,13 @@ _Tip: Optionally use the `new` command covered above to setup the config and ind
             - Home: index.md
             - About: about.md
         ```
-    3. Choose a theme. e.g.
-        ```yaml
-        theme: readthedocs
-        ```
+    3. Choose a theme. 
+        - An example of choosing a theme which is builtin:
+            ```yaml
+            theme: readthedocs
+            ```
+        - Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and it to a `requirements.txt` file.
+            
 3. Create a favicon (optional).
     - It will be picked up at this path: `docs/img/favicon.ico`.
 4. Add to your `.gitignore`.
