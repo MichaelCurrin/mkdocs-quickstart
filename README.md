@@ -23,6 +23,7 @@ Purposes:
 - A live demo 
 - Content for a beginner-friendly tutorial on how to setup, run, deploy and customize a MkDocs project like this one.
 
+_Note: The deploy is currently manually triggered by a local command, however there are Issues open to setup CI/CI remote deploys with Netlify or Github Actions._
 
 ## Template
 
