@@ -20,8 +20,8 @@ This project has a site deployed to Github Pages.
 
 Purposes:
 
-- a live demo 
-- a beginner-friendly tutorial on how to setup, run, deploy and customize this MkDocs project.
+- A live demo 
+- Content for a beginner-friendly tutorial on how to setup, run, deploy and customize a MkDocs project like this one.
 
 
 ## Template
