@@ -4,7 +4,7 @@
 [![Repo stars](https://img.shields.io/github/stars/MichaelCurrin/mkdocs-quickstart?style=social)](https://github.com/MichaelCurrin/mkdocs-quickstart)
 
 
-Use the MkDocs (make docs) tool to create build a docs site around markdown docs. 
+Use the MkDocs (make docs) tool to create build a docs site around markdown docs.
 
 Follow the tutorial to add an existing project or create a project from scratch. The result will look like this project.
 
