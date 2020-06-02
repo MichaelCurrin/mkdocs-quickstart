@@ -16,8 +16,8 @@ Follow the tutorial to add an existing project or create a project from scratch.
     - Install and configure a new or existing project.
     - Run it locally.
     - Deploy it.
-- **Copy this project to your repos**
-    - [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+- **Add a copy of this project to your repos**
+    - [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 - **View the live demo**
     - This site is hosted on Github Pages. See if you like it. Other themes are available - see the tutorial.
 

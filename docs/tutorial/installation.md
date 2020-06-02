@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- [Python](https://www.python.org/)
+- [Python 3](https://www.python.org/)
 
 
 ## Install system dependencies
@@ -35,17 +35,22 @@ python3 -m venv venv
 
 Activate it.
 
-```
+```sh
 source venv/bin/activate
 ```
 
 Install dependencies.
 
-```sh
-pip install mkdocs
-```
+- Directly.
+    ```sh
+    pip install mkdocs
+    ```
+- Or use a `requirements.txt` file with `mkdocs` in it.
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-### Globally
+### Install globally
 
 If you prefer to install MkDocs once and reuse it across projects, you can install it globally.
 
