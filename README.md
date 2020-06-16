@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> A concise recipe for setting up a MkDocs docs site on Github Pages
+> A template, live demo and tutorial for how to setup a MkDocs docs site on Github Pages
 
 [![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue.svg)](https://www.mkdocs.org/)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://GitHub.com/MichaelCurrin/mkdocs-quickstart/tags/)
