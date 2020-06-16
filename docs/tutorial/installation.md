@@ -21,7 +21,7 @@ Choose or setup a MkDocs project.
 
 
 ## Install project dependencies
-> Install MkDocs
+> Install MkDocs locally
 
 For more info, see the [Installation](https://www.mkdocs.org/#installation) page on the MkDocs site.
 
@@ -39,22 +39,25 @@ Activate it.
 source venv/bin/activate
 ```
 
-Install dependencies.
+Install dependencies using one of these approaches:
 
-- Directly.
-    ```sh
+<!-- Using `sh` for code block breaks for bullet points at least for read the docs theme -->
+
+- Install directly.
+    ```bash
     pip install mkdocs
     ```
-- Or use a `requirements.txt` file with `mkdocs` in it.
-    ```sh
+- Create a `requirements.txt` file, add `mkdocs` to it then install from the file.
+    ```bash
+    echo 'mkdocs' > requirements.txt
     pip install -r requirements.txt
     ```
 
 ### Install globally
 
-If you prefer to install MkDocs once and reuse it across projects, you can install it globally.
+If you prefer to install MkDocs once and reuse it across projects, then you can install it globally.
 
-MkDocs is available with package managers like `apt-get`, `homebrew` and `yum`.
+MkDocs is available using package managers like `apt-get`, `homebrew` and `yum`.
 
 You can install like this too:
 
