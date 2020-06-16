@@ -20,6 +20,7 @@ This is the simplest MkDocs site you can make:
     - `index.md` - Homepage in the `docs` directory (by default).
 - `mkdocs.yml` - Config at the root.
 
+Optionally add `requirements.txt` at the root or in `docs`. This can have `mkdocs` in it and also any themes if needed. Otherwise just make sure those are handled with a `pip install mkdocs` and `pip install THEME` lines in your instructions.
 
 ### Create a starter site
 
@@ -56,7 +57,7 @@ _Tip: Optionally use the `new` command covered above to setup the config and ind
             ```yaml
             theme: readthedocs
             ```
-        - Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and it to a `requirements.txt` file.
+        - Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and add to a `requirements.txt` file.
             
 3. Create a favicon (optional).
     - It will be picked up at this path: `docs/img/favicon.ico`.
