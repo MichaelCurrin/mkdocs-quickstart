@@ -20,7 +20,13 @@ This is the simplest MkDocs site you can make:
     - `index.md` - Homepage in the `docs` directory (by default).
 - `mkdocs.yml` - Config at the root.
 
-Optionally add `requirements.txt` at the root or in `docs`. This can have `mkdocs` in it and also any themes if needed. Otherwise just make sure those are handled with a `pip install mkdocs` and `pip install THEME` lines in your instructions.
+
+### Requirements file
+
+A requirements file is optional but it can make it easier to manage dependencies. If you choose not use the file, make sure `pip install mkdocs` and `pip install THEME` lines are your instructions.
+
+If you want to add, then include `requirements.txt` at the root. If your project is already a Python project, you might prefer to add `mkdocs` in `dev-requirements.txt` or at `docs/requirements.txt` to keep it isolated.This file should have `mkdocs` in it and also any themes if needed. 
+
 
 ### Create a starter site
 
@@ -64,12 +70,12 @@ _Tip: Optionally use the `new` command covered above to setup the config and ind
 4. Add to your `.gitignore`.
     - Add build directory. This will prevent it from being versioned on `master` branch.
     - Add virtual environment, if using one.
-    - e.g.
-        ```
-        site/
+    - For example:
+    ```
+    site/
 
-        venv
-        ```
+    venv
+    ```
 
 You project should now look this this:
 
@@ -79,3 +85,4 @@ You project should now look this this:
 - `mkdocs.yml`
 - `.gitignore`
 - `venv`
+- `requirements.txt` - optional
