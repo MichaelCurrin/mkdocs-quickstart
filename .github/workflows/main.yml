@@ -1,6 +1,5 @@
-name: Publish docs via GitHub Pages
+name: Deploy docs
 
-# TODO only on docs
 on:
   push:
     branches:
@@ -8,14 +7,16 @@ on:
 
 jobs:
   build:
-    name: Deploy docs
+    name: Build
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
 
-      - name: Deploy docs
+      - name: Deploy to GH Pages
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          
