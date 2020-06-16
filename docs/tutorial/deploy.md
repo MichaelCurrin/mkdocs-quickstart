@@ -8,10 +8,16 @@ See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/
 ## Github Pages
 > How to deploy your docs site to Github Pages.
 
-_Note this is for a Project Page and not Organization and User Pages._
+Follow one of the approaches below:
 
+- [Run deploy command](#run-deploy-command) - Run a MkDocs CLI command locally to deploy.
+- [Deploy with Githhub Actions](#deploy-with-github-actions) - Setup continous deployment config to enable deploys on a change to files on Github.
+
+
+_Note this is for a Project Page and not Organization or User Pages._
 
 ### Run deploy command
+> Run a MkDocs CLI command locally to deploy
 
 MkDocs needs to know where to publish commits on Github - so make sure you are working with a repo that you cloned, or that you initialize the local repo and add a `remote` repo.
 
@@ -40,11 +46,13 @@ See deploy options:
 mkdocs gh-deploy --help
 ```
 
-### Remote build
-> How to trigger a rebuild of your docs site on changes
+### Deploy with Github Actions
+>  Setup continous deployment config to enable deploys on a change to files on Github
 
-When you make changes to your docs config or the docs directory, especially editing on Github directly, it's often useful to have the docs site build and deploy without you running a command. A remote build also means you not need to setup Python or MkDocs on your local machine just to get the docs site to work.
+When you make changes to your docs config or the docs directory, especially editing on Github directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by Github.
 
-So setup a Github Action such as this to your project.
+This action is setup to do that for MkDocs:
 
 - [deploy-mkdocs](https://github.com/marketplace/actions/deploy-mkdocs) action in marketplace.
+
+See this implemented in the [workflow](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/main.yml) file of this MkDocs Quickstart project.
