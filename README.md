@@ -9,13 +9,6 @@
 
 <!-- TODO When creating a new project copied from this, you can delete this README.md and start over -->
 
-<div align="center">
-  
-[![GH pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
-
-</div>
-
 
 ## Preview
 
@@ -23,6 +16,13 @@
 
 
 ## How to use this project
+
+<div align="center">
+  
+[![GH pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+
+</div>
 
 ### View live demo site
 
