@@ -48,7 +48,8 @@ Or submit a code change:
 
 1. Fork this project.
 2. Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/tutorial/tldr.md) page of the local docs.
-3. Make any changes you want. Be sure to keep a copy of the original license in the repo. e.g. `cp LICENSE LICENSE-source`.
+3. Make any changes you want. Be sure to keep a copy of the original license in the repo. 
+    - e.g. `cp LICENSE LICENSE-source`
 4. Create a Pull Request.
 
 
