@@ -13,22 +13,23 @@
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
-
-## Features
-
-- Markdown-based docs site which is easy to edit
-- Easy to configure without having to write HTML and CSS
-- Uses a deploy pipeline on GH Actions to deploy a GH Pages site
-
-
 ## How to use this project
 
 <div align="center">
   
-[![GH pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![GH Pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
+
+
+## Features
+
+- A markdown-based docs site which is easy to edit - see the content [docs](/docs/) directory.
+- Easy to configure - see the short [mkdocs.yml](/mkdocs.yml) file.
+- Use the configured theme or switch to another - no need to write HTML and CSS.
+- Uses a deploy pipeline on GH Actions to deploy a GH Pages site.
+
 
 ### View live demo site
 
