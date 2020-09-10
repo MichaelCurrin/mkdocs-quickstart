@@ -9,15 +9,17 @@
 
 <!-- TODO When creating a new project copied from this, you can delete this README.md and start over -->
 
+<div align="center">
+  
 [![GH pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green.svg?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
-
-
 [![Use this template](https://img.shields.io/badge/Use_this_template-green.svg?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+
+</div>
 
 
 ## Preview
 
-![sample](/sample.png)
+![Sample screenshot](/sample.png)
 
 
 ## Live site
@@ -41,13 +43,14 @@ Change the content and theme to suit your needs, based on the tutorial site or t
 
 ## Contributing
 
-Fork this project.
+Submit an issue.
 
-Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/tutorial/tldr.md) page of the local docs.
+Or submit a code change:
 
-Make any changes you want. Be sure to keep a copy of the original license in the repo. e.g. `cp LICENSE LICENSE-source`.
-
-Create a Pull Request.
+1. Fork this project.
+2. Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/tutorial/tldr.md) page of the local docs.
+3. Make any changes you want. Be sure to keep a copy of the original license in the repo. e.g. `cp LICENSE LICENSE-source`.
+4. Create a Pull Request.
 
 
 ## License
