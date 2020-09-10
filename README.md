@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> A template, live demo and tutorial for how to setup a MkDocs docs site on Github Pages
+> A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
 
 ![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)
 [![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue)](https://www.mkdocs.org/)
@@ -7,8 +7,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 
-<!-- TODO When creating a new project copied from this, you can delete this README.md and start over -->
-
+<!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
 
 ## Preview
 
@@ -23,6 +22,8 @@
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
+
+Why use MkDocs? Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to setup and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
 
 ### View live demo site
 
