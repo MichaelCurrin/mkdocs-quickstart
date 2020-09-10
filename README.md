@@ -2,10 +2,9 @@
 > A template, live demo and tutorial for how to setup a MkDocs docs site on Github Pages
 
 ![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)
+[![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue)](https://www.mkdocs.org/)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://GitHub.com/MichaelCurrin/mkdocs-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
-
-[![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue)](https://www.mkdocs.org/)
 
 
 <!-- TODO When creating a new project copied from this, you can delete this README.md and start over -->
