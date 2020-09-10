@@ -20,7 +20,7 @@
 
 ## Preview
 
-![Sample screenshot](/sample.png)
+[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
 
 ## How to use this project
