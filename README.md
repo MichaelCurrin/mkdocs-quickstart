@@ -17,7 +17,7 @@ A low-code way to setup and host a markdown-based docs site with a professional 
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
-This project uses the Read the Docs theme as seen above, but you can switch to the MkDocs default or install another theme.
+This project uses the Read the Docs theme as seen above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
 
 
 ## How to use this project
