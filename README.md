@@ -13,6 +13,8 @@
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
+This project uses the Read the Docs theme as seen above, but you can switch to the MkDocs default or install another theme.
+
 
 ## How to use this project
 
