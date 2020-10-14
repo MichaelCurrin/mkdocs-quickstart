@@ -15,5 +15,5 @@ nav:
         
 theme: readthedocs
 
-# URL for the Edit in GitHub button.
+# For the Edit in GitHub button.
 repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
