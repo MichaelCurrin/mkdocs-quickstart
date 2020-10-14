@@ -13,7 +13,8 @@ nav:
         - Usage: tutorial/usage.md
         - Deploy: tutorial/deploy.md
         
-theme: readthedocs
+theme: 
+  name: readthedocs
 
 # For the Edit in GitHub button.
 repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
