@@ -13,12 +13,13 @@
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
+
 ## How to use this project
 
 <div align="center">
   
 [![GH Pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
 
