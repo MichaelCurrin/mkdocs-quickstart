@@ -6,8 +6,12 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://GitHub.com/MichaelCurrin/mkdocs-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
+
+## Purpose
+
+A low-code way to setup and host a markdown-based docs site with a professional look.
+
 
 ## Preview
 
@@ -30,9 +34,11 @@ This project uses the Read the Docs theme as seen above, but you can switch to t
 
 - A markdown-based docs site which is easy to edit - see the content [docs](/docs/) directory.
 - Easy to configure - see the short [mkdocs.yml](/mkdocs.yml) file.
-- Use the configured theme or switch to another - no need to write HTML and CSS.
+- Use the configured theme or switch to another - no need to write HTML and CSS yourself.
+- Each theme comes with a navbar and you write YAML - Jekyll themes on GH Pages need you to write your own HTML often and each theme handles navbar its own way (sometimes not at all).
 - Uses a deploy pipeline on GH Actions to deploy a GH Pages site.
-
+- The static site output is SEO-friendly.
+- Built on Python but you don't need to write any Python code.
 
 ### View live demo site
 
