@@ -41,17 +41,20 @@ source venv/bin/activate
 
 Install dependencies using one of these approaches:
 
-<!-- Using `sh` for code block breaks for bullet points at least for read the docs theme -->
+<!-- Using `sh` for code block breaks for bullet points at least for read the docs theme. It looks like code can't go in bullet point after all.  -->
 
-- Install directly.
-    ```bash
-    pip install mkdocs
-    ```
-- Create a `requirements.txt` file, add `mkdocs` to it then install from the file.
-    ```bash
-    echo 'mkdocs' > requirements.txt
-    pip install -r requirements.txt
-    ```
+Install directly.
+
+```sh
+pip install mkdocs
+```
+
+Create a `requirements.txt` file, add `mkdocs` to it then install from the file.
+
+```sh
+echo 'mkdocs' > requirements.txt
+pip install -r requirements.txt
+```
 
 ### Install globally
 
