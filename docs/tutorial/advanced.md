@@ -10,24 +10,14 @@ You can add an additional level to your navbar like this:
 
 ```yaml
 nav:
-    - Home: index.md
-    - About: about.md
-    - Foo:
-        - Overview: foo/index.md
-        - Bar: foo/bar.md
+  - Home: index.md
+  - About: about.md
+  - Foo:
+      - Overview: foo/index.md
+      - Bar: foo/bar.md
 ```
 
-However, adding a path when nesting as below is **invalid** and will give an error:
-
-```yaml
-nav:
-    - Home: index.md
-    - About: about.md
-    - Foo: foo/index.md
-        - Bar: foo/bar.md
-```
-
-See [issue #1139](https://github.com/mkdocs/mkdocs/issues/1139).
+The value can either be a string (as in the first case) or a map (as in the last case). This seems to be a YAML limitation but see also [issue #1139](https://github.com/mkdocs/mkdocs/issues/1139).
 
 
 ## Add config options
