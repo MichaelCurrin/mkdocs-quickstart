@@ -1,7 +1,7 @@
 # Advanced
 > Beyond the basic configuration and content
 
-Once you've got the [Setup Project](setup_project.md) section, you can customize further using this guide. Or skip this and go to [Usage](usage.md).
+Once you've got the [Setup Project](setup-project.md) section, you can customize further using this guide. Or skip this and go to [Usage](usage.md).
 
 
 ## Navbar nesting
