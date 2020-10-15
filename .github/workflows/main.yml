@@ -4,17 +4,17 @@ on:
   push:
     branches:
       - master
-        
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
 
       - name: Deploy to GH Pages
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.13
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
