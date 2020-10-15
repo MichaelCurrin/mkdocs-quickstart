@@ -25,7 +25,7 @@ This is the simplest MkDocs site you can make:
 
 A requirements file is optional but it can make it easier to manage dependencies. If you choose not use the file, make sure `pip install mkdocs` and `pip install THEME` lines are your instructions.
 
-If you want to add, then include `requirements.txt` at the root. If your project is already a Python project, you might prefer to add `mkdocs` in `dev-requirements.txt` or at `docs/requirements.txt` to keep it isolated.This file should have `mkdocs` in it and also any themes if needed. 
+If you want to add, then include `requirements.txt` at the root. If your project is already a Python project, you might prefer to add `mkdocs` in `dev-requirements.txt` or at `docs/requirements.txt` to keep it isolated.This file should have `mkdocs` in it and also any themes if needed.
 
 
 ### Create a starter site
@@ -52,30 +52,13 @@ _Tip: Optionally use the `new` command covered above to setup the config and ind
         - If you have any existing markdown docs, these will work too.
 2. Setup config.
     1. Create `mkdocs.yml` at project root.
-    2. Setup navbar there. e.g.
-        ```yaml
-        nav:
-            - Home: index.md
-            - About: about.md
-        ```
-    3. Choose a theme. 
-        - An example of choosing a theme which is builtin:
-            ```yaml
-            theme: readthedocs
-            ```
-        - Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and add to a `requirements.txt` file.
-            
+    2. Setup a navbar there.
+    3. Choose a theme.
 3. Create a favicon (optional).
     - It will be picked up at this path: `docs/img/favicon.ico`.
 4. Add to your `.gitignore`.
     - Add build directory. This will prevent it from being versioned on `master` branch.
     - Add virtual environment, if using one.
-    - For example:
-    ```
-    site/
-
-    venv
-    ```
 
 You project should now look this this:
 
@@ -86,3 +69,52 @@ You project should now look this this:
 - `.gitignore`
 - `venv`
 - `requirements.txt` - optional
+
+
+## Sample content
+
+### Ignore file
+
+`.gitignore`
+
+```
+site/
+
+venv
+```
+
+### Config
+
+#### Sample navbar
+
+```yaml
+nav:
+    - Home: index.md
+    - About: about.md
+```
+
+#### Sample theme
+
+Use a builtin theme.
+```yaml
+theme: mkdocs
+```
+Or
+```yaml
+theme: readthedocs
+```
+
+Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and add to a `requirements.txt` file.
+
+See below using [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown).
+
+`requirements.txt`
+```
+mkdocs-rtd-dropdown
+```
+
+`mkdocs.yml`
+```yaml
+theme:
+  name: 'rtd-dropdown'
+```
