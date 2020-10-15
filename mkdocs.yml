@@ -13,7 +13,6 @@ nav:
       - Usage: tutorial/usage.md
       - Deploy: tutorial/deploy.md
 
-# mkdocs or readthedocs
 theme: readthedocs
 
 # For the Edit in GitHub button.
