@@ -3,8 +3,11 @@
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
 [![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue)](https://www.mkdocs.org/)
+[![Made with GH Actions](https://img.shields.io/badge/Made_with-GH_Action-blue?logo=githubactions)](https://github.com/features/actions)
+[![Made with MkDocs Deploy GH Pages](https://img.shields.io/badge/Made_with-MkDocs_Deploy_GH_Pages-blue?logo=githubactions)](https://github.com/mhausenblas/mkdocs-deploy-gh-pages)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://GitHub.com/MichaelCurrin/mkdocs-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
 
@@ -63,7 +66,7 @@ If you're new to MkDocs, look at the tutorial added on this project's site, othe
 This project provides a way to write your docs in markdown and build a professional-looking docs site on top of it, without having to write HTML or CSS code and using a selection of themes. While MkDocs CLI has functionality to deploy from a local command-line, this project makes deploying effortless by using GitHub Actions to build and deploy the site to a `gh-pages` branch and GitHub Pages to serve the site.
 
 Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to setup and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
-
+ 
 
 ## Contributing
 
