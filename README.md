@@ -3,8 +3,8 @@
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
 [![Made with MkDocs](https://img.shields.io/badge/Made_with-MkDocs-blue)](https://www.mkdocs.org/)
-[![Made with GH Actions](https://img.shields.io/badge/Made_with-GH_Action-blue?logo=githubactions)](https://github.com/features/actions)
-[![Made with MkDocs Deploy GH Pages](https://img.shields.io/badge/Made_with-MkDocs_Deploy_GH_Pages-blue?logo=githubactions)](https://github.com/mhausenblas/mkdocs-deploy-gh-pages)
+[![Made with GH Actions](https://img.shields.io/badge/Made_with-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![Made with MkDocs Deploy GH Pages](https://img.shields.io/badge/Made_with-MkDocs_Deploy_GH_Pages-blue?logo=github-actions&logoColor=white)](https://github.com/mhausenblas/mkdocs-deploy-gh-pages)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://GitHub.com/MichaelCurrin/mkdocs-quickstart/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
