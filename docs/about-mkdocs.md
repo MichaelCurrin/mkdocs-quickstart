@@ -22,7 +22,7 @@ If you are new to markdown, see the [Getting Started](https://www.markdownguide.
 ## Reasons to use MkDocs
 
 - Create an elegant, modern docs site for your project.
-- Create a static site and serve from Github Pages easily.
+- Create a static site and serve from GitHub Pages easily.
 - Low-code solution
     - No need to write HTML or learn templating syntax needed
     - Use your existing markdown files as content.

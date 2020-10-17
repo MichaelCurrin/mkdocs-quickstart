@@ -5,13 +5,13 @@
 See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/) on the Mkdocs site for more details.
 
 
-## Github Pages
-> How to deploy your docs site to Github Pages.
+## GitHub Pages
+> How to deploy your docs site to GitHub Pages.
 
 Follow one of the approaches below:
 
 - [Run deploy command](#run-deploy-command) - Run a MkDocs CLI command locally to deploy.
-- [Deploy with Githhub Actions](#deploy-with-github-actions) - Setup continous deployment config to enable deploys on a change to files on Github.
+- [Deploy with Githhub Actions](#deploy-with-github-actions) - Setup continous deployment config to enable deploys on a change to files on GitHub.
 
 
 _Note this is for a Project Page and not Organization or User Pages._
@@ -19,7 +19,7 @@ _Note this is for a Project Page and not Organization or User Pages._
 ### Run deploy command
 > Run a MkDocs CLI command locally to deploy
 
-MkDocs needs to know where to publish commits on Github - so make sure you are working with a repo that you cloned, or that you initialize the local repo and add a `remote` repo.
+MkDocs needs to know where to publish commits on GitHub - so make sure you are working with a repo that you cloned, or that you initialize the local repo and add a `remote` repo.
 
 Run this command locally:
 
@@ -31,9 +31,9 @@ That will do the following:
 
 1. Clean and build to `site` directory.
 2. Push to `gh-pages` branch. Note: You must not edit this branch directly.
-3. Enable Github Pages if it was not yet enabled
+3. Enable GitHub Pages if it was not yet enabled
 
-Then go to your repo on Github, see the *environment* tab and click _View deployment_.
+Then go to your repo on GitHub, see the *environment* tab and click _View deployment_.
 
 e.g.
 
@@ -46,10 +46,10 @@ See deploy options:
 mkdocs gh-deploy --help
 ```
 
-### Deploy with Github Actions
->  Setup continous deployment config to enable deploys on a change to files on Github
+### Deploy with GitHub Actions
+>  Setup continous deployment config to enable deploys on a change to files on GitHub
 
-When you make changes to your docs config or the docs directory, especially editing on Github directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by Github.
+When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 
 This action is setup to do that for MkDocs:
 

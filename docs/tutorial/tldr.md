@@ -17,12 +17,12 @@
 
 ### Run deploy command locally
 
-1. [Deploy](deploy.md) to Github Pages
+1. [Deploy](deploy.md) to GitHub Pages
     - `mkdocs gh-deploy`
-2. View published site on Github Pages at `https://USERNAME.github.io/REPO-NAME/`
+2. View published site on GitHub Pages at `https://USERNAME.github.io/REPO-NAME/`
 
 ### Run continuous integration
 
-For CI/CD deploy, use Github Actions with an action such as [Deploy MkDocs](https://github.com/marketplace/actions/deploy-mkdocs). Or use Netlify.
+For CI/CD deploy, use GitHub Actions with an action such as [Deploy MkDocs](https://github.com/marketplace/actions/deploy-mkdocs). Or use Netlify.
 
 This is not covered in this tutorial.

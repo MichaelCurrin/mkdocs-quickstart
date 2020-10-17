@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> A template, live demo and tutorial for how to setup a MkDocs docs site on Github Pages
+> A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
 
 [![Repo stars](https://img.shields.io/github/stars/MichaelCurrin/mkdocs-quickstart?style=social)](https://github.com/MichaelCurrin/mkdocs-quickstart)
 
@@ -19,7 +19,7 @@ Follow the tutorial to add an existing project or create a project from scratch.
 - **Add a copy of this project to your repos**
     - [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 - **View the live demo**
-    - This site is hosted on Github Pages. See if you like it. Other themes are available - see the tutorial.
+    - This site is hosted on GitHub Pages. See if you like it. Other themes are available - see the tutorial.
 
 
 The aim here is not be complete or explain all concepts. It is to provide a reference for common steps and choices needed when setting up a docs site, but still at a beginner-friendly level.

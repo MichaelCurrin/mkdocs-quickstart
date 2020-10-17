@@ -26,8 +26,8 @@ This project uses the Read the Docs theme as seen above. It comes with MkDocs so
 ## How to use this project
 
 <div align="center">
-  
-[![GH Pages](https://img.shields.io/badge/Github_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+
+[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
@@ -59,14 +59,14 @@ This repo also doubles as a template to create a new project from. Click the but
 Change the content and theme to suit your needs, based on the tutorial site or the MkDocs site.
 
 
-## Why use MkDocs? 
+## Why use MkDocs?
 
 If you're new to MkDocs, look at the tutorial added on this project's site, otherwise go to the MkDocs documentation.
 
 This project provides a way to write your docs in markdown and build a professional-looking docs site on top of it, without having to write HTML or CSS code and using a selection of themes. While MkDocs CLI has functionality to deploy from a local command-line, this project makes deploying effortless by using GitHub Actions to build and deploy the site to a `gh-pages` branch and GitHub Pages to serve the site.
 
 Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to setup and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
- 
+
 
 ## Contributing
 
@@ -76,7 +76,7 @@ Or submit a code change:
 
 1. Fork this project.
 2. Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/tutorial/tldr.md) page of the local docs.
-3. Make any changes you want. Be sure to keep a copy of the original license in the repo. 
+3. Make any changes you want. Be sure to keep a copy of the original license in the repo.
     - e.g. `cp LICENSE LICENSE-source`
 4. Create a Pull Request.
 
