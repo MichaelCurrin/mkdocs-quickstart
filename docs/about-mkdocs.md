@@ -7,7 +7,7 @@ The description on the MkDocs site is:
 
 > Project documentation with Markdown.
 
-MkDocs is a Python tool generates a static site based on content written in *markdown*.
+MkDocs is a Python tool that generates a static site based on content written in Markdown.
 
 If you are new to markdown, see the [Getting Started](https://www.markdownguide.org/getting-started/) page on the Markdown Guide website.
 
@@ -37,4 +37,4 @@ If you are new to markdown, see the [Getting Started](https://www.markdownguide.
 
 ## Do I need to know Python?
 
-MkDocs is built in Python (like Sphynx), but you don't have to write Python code. If you setup a [Deploy](deloy) flow right, you don't even have to set it up locally, though then you can't preview.
+MkDocs is built in Python (like Sphinx), but you don't have to write Python code. If you setup a [Deploy](deploy) flow right, you don't even have to set it up locally, though then you can't preview.

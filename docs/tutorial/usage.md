@@ -1,8 +1,6 @@
 # Usage
 > Build and preview a site locally
 
-_Note: If using VS Code, you can use the command palette instead to run the configured tasks - these are setup in `.vscode/tasks.json`. However, using a `Makefile` allows more control locally and on for a remote build._
-
 
 ## Serve docs
 
