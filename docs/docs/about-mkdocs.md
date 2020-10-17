@@ -17,6 +17,7 @@ If you are new to markdown, see the [Getting Started](https://www.markdownguide.
 - [mkdocs.org](https://www.mkdocs.org) homepage
 - [mkdocs/mkdocs ![Repo stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
 - [MkDocs Wiki](https://github.com/mkdocs/mkdocs/wiki) - covering themes, plugins, recipes and more.
+- [Release notes](https://www.mkdocs.org/about/release-notes/)
 
 
 ## Reasons to use MkDocs
