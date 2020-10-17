@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  build:
-    name: Build
+  build-deploy:
+    name: Build and deploy to GH Pages
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-python@v2
 
       - name: Install dependencies
-        run: make install
+        run: cd docs && make install
 
       - name: Build and deploy
-        run: make deploy
+        run: cd docs && make deploy
