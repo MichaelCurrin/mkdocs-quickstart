@@ -19,4 +19,4 @@ b build:
 	mkdocs build --strict
 
 d deploy:
-	mkdocs gh-deploy --strict
+	mkdocs gh-deploy --strict --force
