@@ -20,7 +20,7 @@ A low-code way to setup and host a markdown-based docs site with a professional 
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
-This project uses the Read the Docs theme as seen above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
+This project uses the _Read the Docs_ theme as seen above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
 
 
 ## How to use this project
@@ -57,6 +57,8 @@ Purposes of the site:
 This repo also doubles as a template to create a new project from. Click the button at the top.
 
 Change the content and theme to suit your needs, based on the tutorial site or the MkDocs site.
+
+To isolate the MkDocs flow from the rest of the code, you can move the docs directory and MkDocs configs both to be inside the docs directory. That means you end up having `docs/docs`. But that is okay. Just make sure you select the `/docs` directory when setting up GH Pages.
 
 
 ## Why use MkDocs?
