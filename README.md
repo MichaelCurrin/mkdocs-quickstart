@@ -58,7 +58,7 @@ This repo also doubles as a template to create a new project from. Click the but
 
 Change the content and theme to suit your needs, based on the tutorial site or the MkDocs site.
 
-To isolate the MkDocs flow from the rest of the code, you can move the docs directory and MkDocs configs both to be inside the docs directory. That means you end up having `docs/docs`. But that is okay. Just make sure you select the `/docs` directory when setting up GH Pages.
+To isolate the MkDocs flow from the rest of your code, you can put the configs and the `docs` folder of content inside the `docs` directory. That means you end up having `docs/docs`, which is okay. Just make sure you select the `/docs` directory when setting up GH Pages.
 
 
 ## Why use MkDocs?
