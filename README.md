@@ -39,7 +39,7 @@ This project uses the Read the Docs theme as seen above. It comes with MkDocs so
 - Easy to configure - see the short [mkdocs.yml](/mkdocs.yml) file.
 - Use the configured theme or switch to another - no need to write HTML and CSS yourself.
 - Each theme comes with a navbar and you write YAML - Jekyll themes on GH Pages need you to write your own HTML often and each theme handles navbar its own way (sometimes not at all).
-- Uses a deploy pipeline on GH Actions to deploy a GH Pages site.
+- Uses a deploy pipeline on GH Actions to deploy a GH Pages site - the action actually runs GH Pages deploy command.
 - The static site output is SEO-friendly.
 - Built on Python but you don't need to write any Python code.
 

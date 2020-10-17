@@ -83,9 +83,7 @@ site/
 venv
 ```
 
-### Config
-
-#### Sample navbar
+### Navbar
 
 ```yaml
 nav:
@@ -93,18 +91,28 @@ nav:
     - About: about.md
 ```
 
-#### Sample theme
+### Themes
 
-Use a builtin theme.
+#### Builtin
+
+Use a builtin theme that comes with MkDocs.
+
+The default.
+
 ```yaml
 theme: mkdocs
 ```
-Or
+
+Using ReadTheDocs theme and alternative config syntax.
+
 ```yaml
-theme: readthedocs
+theme:
+  name: readthedocs
 ```
 
 Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes). If it doesn't immediately, you'll have to use `pip` to install it and add to a `requirements.txt` file.
+
+#### ReadTheDocs Dropdown theme
 
 See below using [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown).
 
@@ -117,4 +125,19 @@ mkdocs-rtd-dropdown
 ```yaml
 theme:
   name: 'rtd-dropdown'
+```
+
+### Material for MkdDocs theme
+
+See the [MkDocs for Material](https://squidfunk.github.io/mkdocs-material/) homepage. See the Setup page for config options.
+
+`requirements.txt`
+```
+mkdocs-material-extensions>=1.0
+```
+
+`mkdocs.yml`
+```yaml
+theme:
+  name: 'material'
 ```

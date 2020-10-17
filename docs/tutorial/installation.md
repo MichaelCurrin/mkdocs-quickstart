@@ -30,31 +30,21 @@ For more info, see the [Installation](https://www.mkdocs.org/#installation) page
 Create a virtual environment at the project root.
 
 ```sh
-python3 -m venv venv
+$ python3 -m venv venv
 ```
 
 Activate it.
 
 ```sh
-source venv/bin/activate
+$ source venv/bin/activate
 ```
 
-Install dependencies using one of these approaches:
-
-<!-- Using `sh` for code block breaks for bullet points at least for read the docs theme. It looks like code can't go in bullet point after all.  -->
-
-Install directly.
+Install `mkdocs` from project dependencies list.
 
 ```sh
-pip install mkdocs
+$ pip install -r requirements.txt
 ```
 
-Create a `requirements.txt` file, add `mkdocs` to it then install from the file.
-
-```sh
-echo 'mkdocs' > requirements.txt
-pip install -r requirements.txt
-```
 
 ### Install globally
 
