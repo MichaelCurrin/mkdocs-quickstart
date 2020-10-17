@@ -1,5 +1,8 @@
 .PHONY: docs
 
+default: install
+
+
 h help:
 	@egrep '(^\S)|(^$$)|\s+@echo' Makefile
 
