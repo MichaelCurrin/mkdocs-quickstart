@@ -9,10 +9,10 @@ _Note: If using VS Code, you can use the command palette instead to run the conf
 This will build the docs in memory (not to disk) and serve an auto-reloading server.
 
 ```sh
-$ make serve
+$ make s
 ```
 
-That will use `make` to run the following:
+That will use `Makefile` to run the following:
 
 ```sh
 $ mkdocs serve --strict
@@ -28,10 +28,10 @@ Then open in your browser:
 Build docs site to `site` directory. This is useful for a CI flow.
 
 ```sh
-$ make docs
+$ make b
 ```
 
-That will use `make` to run the following:
+That will use `Makefile` to run the following:
 
 ```sh
 $ mkdocs build --strict
