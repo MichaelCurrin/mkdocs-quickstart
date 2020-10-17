@@ -16,8 +16,17 @@
 
 Choose or setup a MkDocs project.
 
-- Follow the tutorial page to setup a project.
-- Or click _Use this template_ on this repo to create your own copy of the repo, then clone it.
+
+Follow the tutorial page to setup a project.
+
+Or click _Use this template_ on this repo to create your own copy of the repo, then clone it.
+
+e.g.
+
+```sh
+$ git clone git@github.com:MichaelCurrin/mkdocs-quickstart.git
+$ cd mkdocs-quickstart
+```
 
 
 ## Install project dependencies
@@ -39,9 +48,10 @@ Activate it.
 $ source venv/bin/activate
 ```
 
-Install `mkdocs` from project dependencies list.
+Install `mkdocs` from the project dependencies list.
 
 ```sh
+$ cd docs
 $ pip install -r requirements.txt
 ```
 

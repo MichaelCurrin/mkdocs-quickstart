@@ -1,6 +1,37 @@
 # Usage
 > Build and preview a site locally
 
+Make sure to run all commands from the `docs` directory.
+
+```sh
+$ cd docs
+```
+
+
+## CLI help
+
+```sh
+$ make help
+```
+```
+.PHONY: docs
+
+default: install
+
+
+h help:
+
+
+install:
+
+
+s serve:
+
+b build:
+
+d deploy:
+```
+
 
 ## Serve docs
 
