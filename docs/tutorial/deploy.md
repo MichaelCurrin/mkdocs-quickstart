@@ -57,8 +57,8 @@ $ mkdocs gh-deploy --help
 
 When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 
-This action is setup to do that for MkDocs:
+This action is setup to do that for MkDocs and the Material theme:
 
 - [deploy-mkdocs](https://github.com/marketplace/actions/deploy-mkdocs) action in marketplace.
 
-See this implemented in the [workflow](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/main.yml) file of this MkDocs Quickstart project.
+See this implemented in the [workflow](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/docs.yml) file of this MkDocs Quickstart project.
