@@ -1,11 +1,16 @@
 .PHONY: docs
 
+h help:
+	@egrep '(^\S)|(^$$)|\s+@echo' Makefile
+
+
 install:
 	pip install --upgrade pip
 	pip install -r requirements.txt
 
-b docs:
-	mkdocs build --strict
 
-s docs-serve:
+s serve:
 	mkdocs serve --strict
+
+d docs:
+	mkdocs build --strict
