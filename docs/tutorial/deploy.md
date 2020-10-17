@@ -14,7 +14,7 @@ Follow one of the approaches below:
 - [Deploy with Githhub Actions](#deploy-with-github-actions) - Setup continous deployment config to enable deploys on a change to files on GitHub.
 
 
-_Note this is for a Project Page and not Organization or User Pages._
+_Note this is for a Project Page on a subpath and not an Organization or User Page._
 
 ### Run deploy command
 > Run a MkDocs CLI command locally to deploy
@@ -24,7 +24,13 @@ MkDocs needs to know where to publish commits on GitHub - so make sure you are w
 Run this command locally:
 
 ```sh
-mkdocs gh-deploy
+$ make d
+```
+
+That will use `Makefile` to run the following:
+
+```sh
+$ mkdocs gh-deploy --strict
 ```
 
 That will do the following:
@@ -43,11 +49,11 @@ e.g.
 See deploy options:
 
 ```sh
-mkdocs gh-deploy --help
+$ mkdocs gh-deploy --help
 ```
 
 ### Deploy with GitHub Actions
->  Setup continous deployment config to enable deploys on a change to files on GitHub
+>  Setup continuous deployment config to enable deploys on a change to files on GitHub
 
 When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 
