@@ -19,7 +19,11 @@ Choose or setup a MkDocs project.
 
 Follow the tutorial page to setup a project.
 
-Or click _Use this template_ on this repo to create your own copy of the repo, then clone it.
+Or click the button on this repo to create your own copy of the repo.
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+
+Then clone it.
 
 e.g.
 
