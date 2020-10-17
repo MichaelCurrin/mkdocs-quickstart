@@ -35,12 +35,12 @@ This project uses the _Read the Docs_ theme as seen above. It comes with MkDocs 
 
 ## Features
 
-- A markdown-based docs site which is easy to edit - see the content [docs](/docs/) directory.
-- Easy to configure - see the short [mkdocs.yml](/mkdocs.yml) file.
+- A **markdown-based** docs site which is easy to edit - see the content in the [docs](/docs/docs/) directory.
+- Easy to **configure** - see the short [mkdocs.yml](/docs/mkdocs.yml) file.
 - Use the configured theme or switch to another - no need to write HTML and CSS yourself.
 - Each theme comes with a navbar and you write YAML - Jekyll themes on GH Pages need you to write your own HTML often and each theme handles navbar its own way (sometimes not at all).
 - Uses a deploy pipeline on GH Actions to deploy a GH Pages site - the action actually runs GH Pages deploy command.
-- The static site output is SEO-friendly.
+- The static site output is **SEO-friendly**.
 - Built on Python but you don't need to write any Python code.
 
 ### View live demo site
@@ -77,7 +77,7 @@ Submit an issue.
 Or submit a code change:
 
 1. Fork this project.
-2. Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/tutorial/tldr.md) page of the local docs.
+2. Set up the project locally - follow the instructions on the live tutorial or in the [TLDR](/docs/docs/tutorial/tldr.md) page of the local docs.
 3. Make any changes you want. Be sure to keep a copy of the original license in the repo.
     - e.g. `cp LICENSE LICENSE-source`
 4. Create a Pull Request.
