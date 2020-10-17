@@ -140,3 +140,14 @@ mkdocs-material-extensions>=1.0
 theme:
   name: 'material'
 ```
+
+Here are some other packages which can be useful and might or might not be needed. Based on [action](https://github.com/squidfunk/mkdocs-material/blob/master/requirements.txt).
+
+`requirements.txt`
+```
+mkdocs>=1.1
+Pygments>=2.4
+markdown>=3.2
+pymdown-extensions>=7.0
+mkdocs-material-extensions>=1.0
+```
