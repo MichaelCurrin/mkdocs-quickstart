@@ -15,5 +15,8 @@ install:
 s serve:
 	mkdocs serve --strict
 
-d docs:
+b build:
 	mkdocs build --strict
+
+d deploy:
+	mkdocs gh-deploy --strict
