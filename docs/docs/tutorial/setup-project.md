@@ -49,9 +49,9 @@ _Tip: Optionally use the `new` command covered above to setup the config and ind
     3. Create other markdown pages (optional).
         - Use placeholder content if you want to move on and then come back to expand them.
         - If you have any existing markdown docs, these will work too.
-2. Setup config.
-    1. Create `mkdocs.yml` at project root.
-    2. Setup a navbar there.
+2. Set up config.
+    1. Create `mkdocs.yml` at the project root.
+    2. Set up a navbar there.
     3. Choose a theme.
 3. Create a favicon (optional).
     - It will be picked up at this path: `docs/img/favicon.ico`.
@@ -63,7 +63,7 @@ You project should now look this this:
 
 - `docs/`
     - `index.md`
-    - Other pages...
+    - More pages...
 - `mkdocs.yml`
 - `.gitignore`
 - `venv`
@@ -75,7 +75,6 @@ You project should now look this this:
 ### Ignore file
 
 `.gitignore`
-
 ```
 site/
 
@@ -116,7 +115,6 @@ Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
 See below using [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown).
 
 `requirements.txt`:
-
 ```
 mkdocs-rtd-dropdown
 ```
@@ -141,15 +139,4 @@ mkdocs-material-extensions>=1.0
 ```yaml
 theme:
   name: 'material'
-```
-
-Here are some other packages which can be useful and might or might not be needed. Based on [action](https://github.com/squidfunk/mkdocs-material/blob/master/requirements.txt).
-
-`requirements.txt`
-```
-mkdocs>=1.1
-Pygments>=2.4
-markdown>=3.2
-pymdown-extensions>=7.0
-mkdocs-material-extensions>=1.0
 ```
