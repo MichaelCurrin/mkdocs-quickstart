@@ -115,12 +115,14 @@ Find more [supported themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
 
 See below using [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown).
 
-`requirements.txt`
+`requirements.txt`:
+
 ```
 mkdocs-rtd-dropdown
 ```
 
-`mkdocs.yml`
+`mkdocs.yml`:
+
 ```yaml
 theme:
   name: 'rtd-dropdown'
@@ -130,12 +132,12 @@ theme:
 
 See the [MkDocs for Material](https://squidfunk.github.io/mkdocs-material/) homepage. See the Setup page for config options.
 
-`requirements.txt`
+`requirements.txt`:
 ```
 mkdocs-material-extensions>=1.0
 ```
 
-`mkdocs.yml`
+`mkdocs.yml`:
 ```yaml
 theme:
   name: 'material'
