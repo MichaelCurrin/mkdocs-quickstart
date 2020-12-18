@@ -8,6 +8,7 @@ on:
 jobs:
   build-deploy:
     name: Build and deploy to GH Pages
+
     runs-on: ubuntu-latest
 
     steps:
