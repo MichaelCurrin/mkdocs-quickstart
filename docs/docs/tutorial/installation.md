@@ -12,18 +12,15 @@
 <script src="https://gist.github.com/MichaelCurrin/57caae30bd7b0991098e9804a9494c23.js"></script>
 
 
-## Setup repo
+## Setup a new repo
 
-Choose or setup a MkDocs project.
+Follow the Tutorial page to setup a project from scratch.
 
-
-Follow the tutorial page to setup a project.
-
-Or click the button on this repo to create your own copy of the repo.
+Or click this create your own copy of the repo.
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
-Then clone it.
+Then clone your repo.
 
 e.g.
 
@@ -40,25 +37,24 @@ For more info, see the [Installation](https://www.mkdocs.org/#installation) page
 
 ### Use a virtual environment
 
-Create a virtual environment at the project root.
+Create a virtual environment at the project root - this is used to isolate project packages from the global packages.
 
 ```sh
 $ python3 -m venv venv
 ```
 
-Activate it.
+Activate the environment.
 
 ```sh
 $ source venv/bin/activate
 ```
 
-Install `mkdocs` from the project dependencies list.
+Install `mkdocs` - this is covered in the project dependencies file.
 
 ```sh
 $ cd docs
 $ pip install -r requirements.txt
 ```
-
 
 ### Install globally
 
@@ -66,8 +62,11 @@ If you prefer to install MkDocs once and reuse it across projects, then you can 
 
 MkDocs is available using package managers like `apt-get`, `homebrew` and `yum`.
 
-You can install like this too:
+Or you can install like this.
 
 ```sh
 python3 -m pip install mkdocs
 ```
+
+If you get prompted for `sudo` use, then cancel and run again with `-U` flag for user-level install.
+
