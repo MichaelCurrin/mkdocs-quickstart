@@ -11,10 +11,9 @@ See [Deploying Your Docs](https://www.mkdocs.org/user-guide/deploying-your-docs/
 Follow one of the approaches below:
 
 - [Run deploy command](#run-deploy-command) - Run a MkDocs CLI command locally to deploy.
-- [Deploy with GitHub Actions](#deploy-with-github-actions) - use the project's workflow to build and deploy to GH Pages on commits pushed to master.
+- [Deploy with GitHub Actions](#deploy-with-github-actions) - Use the project's CI workflow in the cloud to build and deploy to GH Pages on commits pushed to master.
 
-
-_Note this is for a Project Page on a subpath and not an Organization or User Page._
+_Note this is for a Project Page on a subpath, you will have to make adjustments to the command below if you want an Organization or User Page on the root path._
 
 ### Run deploy command
 > Run a MkDocs CLI command locally to deploy
@@ -39,14 +38,13 @@ That will do the following:
 2. Push to `gh-pages` branch. Note: You must not edit this branch directly.
 3. Enable GitHub Pages if it was not yet enabled
 
-Then go to your repo on GitHub, see the *environment* tab and click _View deployment_.
+Then go to your repo on GitHub, look at the *environment* tab and click _View deployment_.
 
 e.g.
 
 - [michaelcurrin.github.io/mkdocs-quickstart/](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
-
-See deploy options:
+See deploy options in the help:
 
 ```sh
 $ mkdocs gh-deploy --help
