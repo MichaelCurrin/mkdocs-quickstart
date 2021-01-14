@@ -4,20 +4,20 @@
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
 [![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
 [![Made with GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/tags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
+[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
 
 ## Purpose
 
-A low-code way to setup and host a markdown-based docs site with a professional look.
+A low-code content-focussed way to setup and host a markdown-based documentation site, with a professional look. Built with MkDocs - a Python package.
 
 
 ## Preview
 
-[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot)
 
 This project uses the _Read the Docs_ theme as seen above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
 
@@ -26,7 +26,8 @@ This project uses the _Read the Docs_ theme as seen above. It comes with MkDocs 
 
 <div align="center">
 
-[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-green?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
@@ -60,9 +61,17 @@ Change the content and theme to suit your needs, based on the tutorial site or t
 To isolate the MkDocs flow from the rest of your code, you can put the configs and the `docs` folder of content inside the `docs` directory. That means you end up having `docs/docs`, which is okay. Just make sure you select the `/docs` directory when setting up GH Pages.
 
 
-## Why use MkDocs?
+## About MkDocs
 
-If you're new to MkDocs, look at the tutorial added on this project's site, otherwise go to the MkDocs documentation.
+### Resources
+
+- Homepage: [mkdocs.org](http://www.mkdocs.org/)
+- Repo: [![mkdocs - mkdocs](https://img.shields.io/static/v1?label=mkdocs&message=mkdocs&color=blue&logo=github)](https://github.com/mkdocs/mkdocs) [![stars - mkdocs](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
+- PyPI package: [mkdocs](https://pypi.org/project/mkdocs/)
+
+### Why use MkDocs?
+
+If you're new to MkDocs, look at the tutorial added on this project's site, otherwise go to the MkDocs homepage for documentation.
 
 This project provides a way to write your docs in markdown and build a professional-looking docs site on top of it, without having to write HTML or CSS code and using a selection of themes. While MkDocs CLI has functionality to deploy from a local command-line, this project makes deploying effortless by using GitHub Actions to build and deploy the site to a `gh-pages` branch and GitHub Pages to serve the site.
 
@@ -84,4 +93,4 @@ Or submit a code change:
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
