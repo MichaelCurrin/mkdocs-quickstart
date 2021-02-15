@@ -2,7 +2,6 @@
 > A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
-
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
