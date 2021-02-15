@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
@@ -27,7 +28,11 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install dependencies
-        run: cd docs && make install
+        run: |
+          cd docs
+          make install
 
       - name: Build and deploy
-        run: cd docs && make deploy
+        run: |
+          cd docs
+          make deploy
