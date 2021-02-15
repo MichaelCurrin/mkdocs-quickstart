@@ -14,7 +14,9 @@
 
 ## Purpose
 
-A low-code content-focussed way to setup and host a markdown-based documentation site, with a professional look. Built with MkDocs - a Python package.
+This project provides low-code content-focused way to setup and host a markdown-based documentation site, with a professional look and themes. Built with MkDocs - a Python package which is a static site generator specializing in documentation.
+
+A GitHub Actions workflow is provided with this template so you can easily deploy to GitHub Pages too.
 
 
 ## Preview
