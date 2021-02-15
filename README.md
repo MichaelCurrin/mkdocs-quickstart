@@ -2,10 +2,13 @@
 > A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
-[![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
-[![Made with GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
-[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Made with Python](https://img.shields.io/badge/Python->%3D3.6-blue?logo=python&logoColor=white)](https://python.org)
+[![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
+[![CI - GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
@@ -19,7 +22,7 @@ A low-code content-focussed way to setup and host a markdown-based documentation
 
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot)
 
-This project uses the _Read the Docs_ theme as seen above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
+This project uses the _Read the Docs_ theme, as shown above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
 
 
 ## How to use this project
