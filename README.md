@@ -20,7 +20,7 @@ A low-code content-focussed way to setup and host a markdown-based documentation
 
 ## Preview
 
-[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot)
+[![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot")
 
 This project uses the _Read the Docs_ theme, as shown above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
 
@@ -29,9 +29,9 @@ This project uses the _Read the Docs_ theme, as shown above. It comes with MkDoc
 
 <div align="center">
 
-[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-blue?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
 </div>
 
@@ -72,7 +72,7 @@ To isolate the MkDocs flow from the rest of your code, you can put the configs a
 - Repo: [![mkdocs - mkdocs](https://img.shields.io/static/v1?label=mkdocs&message=mkdocs&color=blue&logo=github)](https://github.com/mkdocs/mkdocs) [![stars - mkdocs](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social)](https://github.com/mkdocs/mkdocs)
 - PyPI package: [mkdocs](https://pypi.org/project/mkdocs/)
 
-### Why use MkDocs?
+### Why MkDocs?
 
 If you're new to MkDocs, look at the tutorial added on this project's site, otherwise go to the MkDocs homepage for documentation.
 
