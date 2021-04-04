@@ -18,7 +18,15 @@ This is the simplest MkDocs site you can make:
 
 - `docs/`
     - `index.md` - Homepage in the `docs` directory (by default).
-- `mkdocs.yml` - Config at the root.
+- `mkdocs.yml` 
+    - Config at the root - control appearance and navigation of your site.
+    - See this project's [docs/mkdocs.yml](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/docs/mkdocs.yml) file on GitHub.
+    
+Notes on fields for the config:
+
+- `site_name` - title of your site.
+- `site_description` - used as a description for SEO and you could use it somewhere in your template.
+- `repo_url` - for _Edit on GitHub_ button.
 
 
 ### Requirements file
@@ -83,6 +91,7 @@ venv
 
 ### Navbar
 
+`mkdocs.yml`
 ```yaml
 nav:
     - Home: index.md
