@@ -1,6 +1,13 @@
+### Site metadata
+
 site_name: MkDocs Quickstart
-# SEO description.
-site_description: "A concise recipe for setting up a MkDocs docs site on GitHub Pages"
+site_description: Started template for a MkDocs docs site on GH Pages - including CI
+
+repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
+
+### Build settings
+
+theme: readthedocs
 
 nav:
   - Home: index.md
@@ -12,8 +19,3 @@ nav:
       - Advanced: tutorial/advanced.md
       - Usage: tutorial/usage.md
       - Deploy: tutorial/deploy.md
-
-theme: readthedocs
-
-# Target for Edit in GitHub button.
-repo_url: https://github.com/MichaelCurrin/mkdocs-quickstart/
