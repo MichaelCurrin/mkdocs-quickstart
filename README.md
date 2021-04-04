@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> A template, live demo and tutorial for how to setup a MkDocs docs site on GitHub Pages
+> Started template for a MkDocs docs site on GH Pages - including CI
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
@@ -8,6 +8,8 @@
 [![Made with Python](https://img.shields.io/badge/Python->%3D3.6-blue?logo=python&logoColor=white)](https://python.org)
 [![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
 [![CI - GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
+
+A template, live demo and tutorial for how to setup a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
 
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
