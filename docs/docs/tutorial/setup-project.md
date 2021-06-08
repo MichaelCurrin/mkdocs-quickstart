@@ -25,7 +25,7 @@ Notes on fields for the config:
 
 - `site_name` - title of your site.
 - `site_description` - used as a description for SEO and you could use it somewhere in your template.
-- `site_url` - now a _required_ field when running a deploy.
+- `site_url` - now a _required_ field when running a deploy. Include the subpath on the domain. If your site is not ready to be hosted, set this field to an empty string.
 - `repo_url` - for _Edit on GitHub_ button. See [docs](https://www.mkdocs.org/user-guide/configuration/#repo_url).
 - `edit_uri` - defaults to `edit/master/docs/`, which includes `docs` directory of markdown files inside your repo root. But, if the site's root is in an outer `docs` directory, then you need to _also_ add that, so paths do not break. e.g. `edit/master/docs/docs`. See [docs](https://www.mkdocs.org/user-guide/configuration/#edit_uri)
 
