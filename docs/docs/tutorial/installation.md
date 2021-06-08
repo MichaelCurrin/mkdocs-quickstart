@@ -12,9 +12,9 @@
 <script src="https://gist.github.com/MichaelCurrin/57caae30bd7b0991098e9804a9494c23.js"></script>
 
 
-## Setup a new repo
+## Set up a new repo
 
-Follow the Tutorial page to setup a project from scratch.
+Follow the Tutorial page to set up a project from scratch.
 
 Or click this create your own copy of the repo.
 
@@ -69,4 +69,3 @@ python3 -m pip install mkdocs
 ```
 
 If you get prompted for `sudo` use, then cancel and run again with `-U` flag for user-level install.
-

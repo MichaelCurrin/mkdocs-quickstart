@@ -38,4 +38,4 @@ If you are new to markdown, see the [Getting Started](https://www.markdownguide.
 
 ## Do I need to know Python?
 
-MkDocs is built in Python (like Sphinx), but you don't have to write Python code. If you setup a [Deploy](deploy) flow right, you don't even have to set it up locally, though then you can't preview.
+MkDocs is built in Python (like Sphinx), but you don't have to write Python code. If you set up a [Deploy](deploy) flow right, you don't even have to set it up locally, though then you can't preview.

@@ -51,7 +51,7 @@ $ mkdocs gh-deploy --help
 ```
 
 ### Deploy with GitHub Actions
->  Setup continuous deployment config to enable deploys on a change to files on GitHub
+>  Set up continuous deployment config to enable deploys on a change to files on GitHub
 
 When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 

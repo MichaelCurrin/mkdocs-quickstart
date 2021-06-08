@@ -6,7 +6,7 @@
 
 1. [Install](installation.md)
     - `pip install mkdocs`
-2. [Setup project](setup-project.md)
+2. [Set up project](setup-project.md)
     - `mkdocs new .` or [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f&logo=github)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 3. [Run](usage.md)
     - `mkdocs serve`

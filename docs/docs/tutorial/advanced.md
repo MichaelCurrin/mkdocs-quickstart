@@ -1,7 +1,7 @@
 # Advanced
 > Beyond the basic configuration and content
 
-Once you've got the [Setup Project](setup-project.md) section, you can customize further using this guide. Or skip this and go to [Usage](usage.md).
+Once you've got the [Set up Project](setup-project.md) section, you can customize further using this guide. Or skip this and go to [Usage](usage.md).
 
 
 ## Navbar nesting
@@ -27,7 +27,7 @@ See [Configuration](https://www.mkdocs.org/user-guide/configuration/) page on Mk
 
 ## Separate docs directory approach
 
-You can also structure your project to have the setup above nested inside a `docs` directory. This is useful you have a few other directories and you want to keep the project root clean.
+You can also structure your project to have the set up above nested inside a `docs` directory. This is useful you have a few other directories and you want to keep the project root clean.
 
 
 - `docs/`

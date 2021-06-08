@@ -9,14 +9,14 @@
 [![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
 [![CI - GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
-A template, live demo and tutorial for how to setup a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
+A template, live demo and tutorial for how to set up a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
 
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
 
 ## Purpose
 
-This project provides low-code content-focused way to setup and host a markdown-based documentation site, with a professional look and themes. Built with MkDocs - a Python package which is a static site generator specializing in documentation.
+This project provides low-code content-focused way to set up and host a markdown-based documentation site, with a professional look and themes. Built with MkDocs - a Python package which is a static site generator specializing in documentation.
 
 A GitHub Actions workflow is provided with this template so you can easily deploy to GitHub Pages too.
 
@@ -81,7 +81,7 @@ If you're new to MkDocs, look at the tutorial added on this project's site, othe
 
 This project provides a way to write your docs in markdown and build a professional-looking docs site on top of it, without having to write HTML or CSS code and using a selection of themes. While MkDocs CLI has functionality to deploy from a local command-line, this project makes deploying effortless by using GitHub Actions to build and deploy the site to a `gh-pages` branch and GitHub Pages to serve the site.
 
-Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to setup and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
+Compared with Jekyll and Docsify, I found the MkDocs code is much lighter to set up and changing themes is much easier than Jekyll. Also you get the benefits SEO which Docsify doesn't have. And it includes a search bar using JS.
 
 
 ## Contributing
