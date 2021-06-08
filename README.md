@@ -32,7 +32,7 @@ This project uses the _Read the Docs_ theme, as shown above. It comes with MkDoc
 
 <div align="center">
 
-[![GH Pages](https://img.shields.io/badge/GitHub_Pages-MkDocs_Quickstart-blue?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
+[![GH Pages](https://img.shields.io/badge/View_site-MkDocs_Quickstart-blue?style=for-the-badge)](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
 [![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/mkdocs-quickstart/generate)
 
