@@ -2,9 +2,11 @@
 
 default: install
 
+all: install build
+
 
 h help:
-	@egrep '(^\S)|(^$$)|\s+@echo' Makefile
+	@grep '^[a-z]' Makefile
 
 
 install:
@@ -14,6 +16,7 @@ install:
 
 s serve:
 	mkdocs serve --strict
+
 
 b build:
 	mkdocs build --strict
