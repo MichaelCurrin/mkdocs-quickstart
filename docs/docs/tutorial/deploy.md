@@ -29,13 +29,13 @@ $ make d
 That will use `Makefile` to run the following:
 
 ```sh
-$ mkdocs gh-deploy --strict
+$ mkdocs gh-deploy --strict --force
 ```
 
 That will do the following:
 
 1. Clean and build to `site` directory.
-2. Push to `gh-pages` branch. Note: You must not edit this branch directly.
+2. Push to `gh-pages` branch. Note: You must _not_ edit this branch directly.
 3. Enable GitHub Pages if it was not yet enabled
 
 Then go to your repo on GitHub, look at the *environment* tab and click _View deployment_.
@@ -56,3 +56,11 @@ $ mkdocs gh-deploy --help
 When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 
 See the [docs.yml](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/docs.yml) workflow provided with this project. You don't have to change anything there. The token will be generated for you by GitHub Actions.
+
+### Mixing deploy approaches
+
+Warning - even though using the `--force` flag to force push, I _still_ got an error on the CI that I need to pull in changes first. This failing state was _caused_ by doing manual local deploy.
+
+Deleting the branch and rerunning the CI fixed it.
+
+But otherwise, avoid mixing the deploy command locally and other times doing it with CI. Maybe MkDocs needs to make a fix on the force flag.
