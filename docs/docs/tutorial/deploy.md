@@ -13,6 +13,8 @@ Follow one of the approaches below:
 - [Run deploy command](#run-deploy-command) - Run a MkDocs CLI command locally to deploy.
 - [Deploy with GitHub Actions](#deploy-with-github-actions) - Use the project's CI workflow in the cloud to build and deploy to GH Pages on commits pushed to master.
 
+Then go to your repo's _Settings_ and _Pages_ then enable _GitHub Pages_ on the `gh-pages` branch's root.
+
 _Note this is for a Project Page on a subpath, you will have to make adjustments to the command below if you want an Organization or User Page on the root path._
 
 ### Run deploy command
@@ -35,14 +37,13 @@ $ mkdocs gh-deploy --strict --force
 That will do the following:
 
 1. Clean and build to `site` directory.
-2. Push to `gh-pages` branch. Note: You must _not_ edit this branch directly.
-3. Enable GitHub Pages if it was not yet enabled
+2. Force push to `gh-pages` branch, overwriting any changes which were pushed from another build.
 
-Then go to your repo on GitHub, look at the *environment* tab and click _View deployment_.
+Then go to your repo on GitHub, look at the *Environment* tab.
 
-e.g.
+When it is done building, click _View deployment_ to see your site.
 
-- [michaelcurrin.github.io/mkdocs-quickstart/](https://michaelcurrin.github.io/mkdocs-quickstart/)
+e.g. [michaelcurrin.github.io/mkdocs-quickstart/](https://michaelcurrin.github.io/mkdocs-quickstart/)
 
 See deploy options in the help:
 
@@ -56,11 +57,3 @@ $ mkdocs gh-deploy --help
 When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.
 
 See the [docs.yml](https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/docs.yml) workflow provided with this project. You don't have to change anything there. The token will be generated for you by GitHub Actions.
-
-### Mixing deploy approaches
-
-Warning - even though using the `--force` flag to force push, I _still_ got an error on the CI that I need to pull in changes first. This failing state was _caused_ by doing manual local deploy.
-
-Deleting the branch and rerunning the CI fixed it.
-
-But otherwise, avoid mixing the deploy command locally and other times doing it with CI. Maybe MkDocs needs to make a fix on the force flag.

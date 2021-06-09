@@ -1,7 +1,7 @@
 # Usage
 > Build and preview a site locally
 
-Make sure to run all commands from the `docs` directory.
+Make sure to run all commands from the `docs` directory, as that is where `Makefile` is.
 
 ```sh
 $ cd docs
@@ -14,21 +14,13 @@ $ cd docs
 $ make help
 ```
 ```
-.PHONY: docs
-
 default: install
-
-
+all: install build
 h help:
-
-
 install:
-
-
+upgrade:
 s serve:
-
 b build:
-
 d deploy:
 ```
 
@@ -38,13 +30,7 @@ d deploy:
 This will build the docs in memory (not to disk) and serve an auto-reloading server.
 
 ```sh
-$ make s
-```
-
-That will use `Makefile` to run the following:
-
-```sh
-$ mkdocs serve --strict
+$ make serve
 ```
 
 Then open in your browser:
@@ -57,11 +43,5 @@ Then open in your browser:
 Build docs site to `site` directory. This is useful for a CI flow.
 
 ```sh
-$ make b
-```
-
-That will use `Makefile` to run the following:
-
-```sh
-$ mkdocs build --strict
+$ make build
 ```
