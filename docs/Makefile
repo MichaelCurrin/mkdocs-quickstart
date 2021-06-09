@@ -10,8 +10,12 @@ h help:
 
 
 install:
-	pip install --upgrade pip
+	pip install pip --upgrade
 	pip install -r requirements.txt
+
+upgrade:
+	pip install pip --upgrade
+	pip install -r requirements.txt --upgrade
 
 
 s serve:
