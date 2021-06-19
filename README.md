@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Python](https://img.shields.io/badge/Python->%3D3.6-blue?logo=python&logoColor=white)](https://python.org)
-[![Made with MkDocs](https://img.shields.io/badge/MkDocs-~=1.1-blue)](https://www.mkdocs.org/)
+[![Made with MkDocs](https://img.shields.io/badge/mkdocs-1-blue)](https://www.mkdocs.org/)
 [![CI - GH Actions](https://img.shields.io/badge/CI-GH_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 
 A template, live demo and tutorial for how to set up a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
