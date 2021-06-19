@@ -1,5 +1,5 @@
 # MkDocs Quickstart
-> Started template for a MkDocs docs site on GH Pages - including CI
+> Starter template for a MkDocs docs site on GH Pages - including CI
 
 [![CI status](https://github.com/MichaelCurrin/mkdocs-quickstart/workflows/Deploy%20Docs/badge.svg)](https://github.com/MichaelCurrin/mkdocs-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/mkdocs-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/mkdocs-quickstart/releases/)
@@ -11,6 +11,7 @@
 
 A template, live demo and tutorial for how to set up a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
 
+MkDocs is a Python package when turns your docs directory and YAML config into a static website. No Python coding needed.
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
 
