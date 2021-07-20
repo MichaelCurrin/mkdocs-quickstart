@@ -11,9 +11,10 @@
 
 A template, live demo and tutorial for how to set up a MkDocs docs site on GH Pages. Using GitHub Actions to automated deploys.
 
-MkDocs is a Python package when turns your docs directory and YAML config into a static website. No Python coding needed.
+MkDocs is a Python package when turns your docs directory and YAML config into a static website. No Python coding needed. Just Markdown and some light configuration including a theme choice and menu.
 
 <!-- TODO When creating a new project copied from this template, you can delete this README.md and start over -->
+
 
 ## Purpose
 
@@ -24,9 +25,21 @@ A GitHub Actions workflow is provided with this template so you can easily deplo
 
 ## Preview
 
+<div align="center">
+
 [![Sample screenshot](/sample.png)](https://michaelcurrin.github.io/mkdocs-quickstart/ "Sample screenshot")
 
-This project uses the _Read the Docs_ theme, as shown above. It comes with MkDocs so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
+</div>
+
+This template project is configured to use the _Read the Docs_ theme, as shown above. 
+
+Thus looks like the the [Read The Docs][] site, but without having to have to overhead of using Sphinx.
+
+[Read The Docs]: https://docs.readthedocs.io
+
+This Read the Docs theme for MkDocs comes with MkDocs already, so you don't need to add to your dependencies. But you can switch to the MkDocs default or install and configure another theme.
+
+You can switch to the default theme or install some others, based on the instructions in this template project.
 
 
 ## How to use this project
