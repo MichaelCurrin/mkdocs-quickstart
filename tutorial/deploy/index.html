@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://michaelcurrin.github.io/mkdocs-quickstart/tutorial/deploy/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Deploy - MkDocs Quickstart</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Deploy";
+    var mkdocs_page_input_path = "tutorial/deploy.md";
+    var mkdocs_page_url = "/mkdocs-quickstart/tutorial/deploy/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> MkDocs Quickstart</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../about-mkdocs/">About MkDocs</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tutorial</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../tldr/">TL;DR</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../setup-project/">Set up project</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../advanced/">Advanced</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../usage/">Usage</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Deploy</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#github-pages">GitHub Pages</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#run-deploy-command">Run deploy command</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#deploy-with-github-actions">Deploy with GitHub Actions</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">MkDocs Quickstart</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tutorial &raquo;</li>
+        
+      
+    
+    <li>Deploy</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/MichaelCurrin/mkdocs-quickstart/edit/master/docs/docs/tutorial/deploy.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="deploy">Deploy</h1>
+<blockquote>
+<p>Build and deploy to a remote public site</p>
+</blockquote>
+<p>See <a href="https://www.mkdocs.org/user-guide/deploying-your-docs/">Deploying Your Docs</a> on the Mkdocs site for more details.</p>
+<h2 id="github-pages">GitHub Pages</h2>
+<blockquote>
+<p>How to deploy your docs site to GitHub Pages.</p>
+</blockquote>
+<p>Follow one of the approaches below:</p>
+<ul>
+<li><a href="#run-deploy-command">Run deploy command</a> - Run a MkDocs CLI command locally to deploy.</li>
+<li><a href="#deploy-with-github-actions">Deploy with GitHub Actions</a> - Use the project's CI workflow in the cloud to build and deploy to GH Pages on commits pushed to master.</li>
+</ul>
+<p>Then go to your repo's <em>Settings</em> and <em>Pages</em> then enable <em>GitHub Pages</em> on the <code>gh-pages</code> branch's root.</p>
+<p><em>Note this is for a Project Page on a subpath, you will have to make adjustments to the command below if you want an Organization or User Page on the root path.</em></p>
+<h3 id="run-deploy-command">Run deploy command</h3>
+<blockquote>
+<p>Run a MkDocs CLI command locally to deploy</p>
+</blockquote>
+<p>MkDocs needs to know where to publish commits on GitHub - so make sure you are working with a repo that you cloned, or that you initialize the local repo and add a <code>remote</code> repo.</p>
+<p>Run this command locally:</p>
+<pre><code class="language-sh">$ make d
+</code></pre>
+<p>That will use <code>Makefile</code> to run the following:</p>
+<pre><code class="language-sh">$ mkdocs gh-deploy --strict --force
+</code></pre>
+<p>That will do the following:</p>
+<ol>
+<li>Clean and build to <code>site</code> directory.</li>
+<li>Force push to <code>gh-pages</code> branch, overwriting any changes which were pushed from another build.</li>
+</ol>
+<p>Then go to your repo on GitHub, look at the <em>Environment</em> tab.</p>
+<p>When it is done building, click <em>View deployment</em> to see your site.</p>
+<p>e.g. <a href="https://michaelcurrin.github.io/mkdocs-quickstart/">michaelcurrin.github.io/mkdocs-quickstart/</a></p>
+<p>See deploy options in the help:</p>
+<pre><code class="language-sh">$ mkdocs gh-deploy --help
+</code></pre>
+<h3 id="deploy-with-github-actions">Deploy with GitHub Actions</h3>
+<blockquote>
+<p>Set up continuous deployment config to enable deploys on a change to files on GitHub</p>
+</blockquote>
+<p>When you make changes to your docs config or the docs directory, especially editing on GitHub directly, it's often useful to have the docs site build and deploy automatically in a remote environment. This is provided for free by GitHub.</p>
+<p>See the <a href="https://github.com/MichaelCurrin/mkdocs-quickstart/blob/master/.github/workflows/docs.yml">docs.yml</a> workflow provided with this project. You don't have to change anything there. The token will be generated for you by GitHub Actions.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../usage/" class="btn btn-neutral" title="Usage"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/MichaelCurrin/mkdocs-quickstart/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../usage/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

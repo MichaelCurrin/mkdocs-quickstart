@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://michaelcurrin.github.io/mkdocs-quickstart/tutorial/advanced/">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Advanced - MkDocs Quickstart</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Advanced";
+    var mkdocs_page_input_path = "tutorial/advanced.md";
+    var mkdocs_page_url = "/mkdocs-quickstart/tutorial/advanced/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> MkDocs Quickstart</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../about-mkdocs/">About MkDocs</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Tutorial</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../tldr/">TL;DR</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../setup-project/">Set up project</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Advanced</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#navbar-nesting">Navbar nesting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#add-config-options">Add config options</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#separate-docs-directory-approach">Separate docs directory approach</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#embedding">Embedding</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../usage/">Usage</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../deploy/">Deploy</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">MkDocs Quickstart</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Tutorial &raquo;</li>
+        
+      
+    
+    <li>Advanced</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/MichaelCurrin/mkdocs-quickstart/edit/master/docs/docs/tutorial/advanced.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="advanced">Advanced</h1>
+<blockquote>
+<p>Beyond the basic configuration and content</p>
+</blockquote>
+<p>Once you've got the <a href="../setup-project/">Set up Project</a> section, you can customize further using this guide. Or skip this and go to <a href="../usage/">Usage</a>.</p>
+<h2 id="navbar-nesting">Navbar nesting</h2>
+<p>You can add an additional level to your navbar like this:</p>
+<pre><code class="language-yaml">nav:
+  - Home: index.md
+  - About: about.md
+  - Foo:
+      - Overview: foo/index.md
+      - Bar: foo/bar.md
+</code></pre>
+<p>The value can either be a string (as in the first case) or a map (as in the last case). This seems to be a YAML limitation but see also <a href="https://github.com/mkdocs/mkdocs/issues/1139">issue #1139</a>.</p>
+<h2 id="add-config-options">Add config options</h2>
+<p>See <a href="https://www.mkdocs.org/user-guide/configuration/">Configuration</a> page on MkDocs site for options.</p>
+<h2 id="separate-docs-directory-approach">Separate docs directory approach</h2>
+<p>You can also structure your project to have the set up above nested inside a <code>docs</code> directory. This is useful you have a few other directories and you want to keep the project root clean.</p>
+<ul>
+<li><code>docs/</code><ul>
+<li><code>docs/</code><ul>
+<li><code>index.md</code></li>
+</ul>
+</li>
+<li><code>theme/</code><ul>
+<li><code>main.html</code></li>
+<li><code>nav.html</code></li>
+<li><code>toc.html</code></li>
+</ul>
+</li>
+<li><code>mkdocs.yml</code></li>
+</ul>
+</li>
+</ul>
+<p>An example of this is the <a href="https://github.com/python-poetry/poetry/tree/master/docs">Poetry</a> repo. That  project is also how I got into MkDocs in the first place.</p>
+<h2 id="embedding">Embedding</h2>
+<p>To embed a gist, just copy and paste the embed script URL which is provided on a gist.</p>
+<p>e.g.</p>
+<pre><code class="language-html">&lt;script src=&quot;https://gist.github.com/MichaelCurrin/57caae30bd7b0991098e9804a9494c23.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../usage/" class="btn btn-neutral float-right" title="Usage">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../setup-project/" class="btn btn-neutral" title="Set up project"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/MichaelCurrin/mkdocs-quickstart/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../setup-project/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../usage/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
